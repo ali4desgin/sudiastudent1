@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginBottom">130dp</dimen>
+    <dimen name="tmargin">2dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+    <dimen name="emargin">6dp</dimen>
+
+
+
+</resources>

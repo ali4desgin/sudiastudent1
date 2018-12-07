@@ -1,0 +1,23 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuBack"
+
+        android:title="Back"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menuv"
+
+        android:title="Vitamin"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menuadol"
+
+        android:title="Adol"
+        app:showAsAction="ifRoom|withText" />
+
+
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EAT</string>
+
+    <string name="title">SIGN UP</string>
+    <string name="nname">Name</string>
+    <string name="name">Enter your name here </string>
+    <string name="Password">Password</string>
+    <string name="phone">Phone number</string>
+    <string name="city">City</string>
+    <string name="sign">SIGN UP</string>
+    <string name="Search">Search Now</string>
+
+
+    <string-array name="search">
+
+        <item>Texas</item>
+        <item>Zaatar w zeit</item>
+        <item>Buffalo</item>
+        <item>le gourmet</item>
+        <item>Wing.stop</item>
+        <item>burger fuel</item>
+    </string-array>
+
+    <string-array name="city">
+
+        <item> Riyadh </item>
+        <item> AlKharj </item>
+        <item> Dilam </item>
+        <item> Aldhobaya </item>
+
+    </string-array>
+</resources>

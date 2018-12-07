@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="@dimen/marginBottom"
+                android:gravity="center"
+                android:text="@string/title"
+                android:textColor="@color/textcolor"
+                android:textSize="20sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/nname"
+                        android:layout_width="60dp"
+                        android:layout_margin="@dimen/tmargin"
+                        android:layout_marginLeft="50dp"
+                        android:text="@string/nname"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="150dp"
+
+                        android:layout_height="80dp"
+                        android:layout_margin="@dimen/emargin"
+                        android:hint="@string/name"
+                        android:textColorHint="@color/textcolor" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/ppassword"
+                        android:layout_width="100dp"
+                        android:layout_margin="@dimen/tmargin"
+                        android:text="@string/Password"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="@dimen/emargin"
+                        android:inputType="textPassword" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="140dp"
+                        android:layout_margin="@dimen/tmargin"
+                        android:text="@string/phone"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/number"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="@dimen/emargin"
+                        android:inputType="number" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/ccity"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="@dimen/tmargin"
+                        android:text="@string/city"
+                        android:textColor="@color/textcolor"
+                        android:textSize="15dp" />
+
+                    <Spinner
+                        android:id="@+id/city"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="@dimen/emargin"
+                        android:entries="@array/city"
+                        android:spinnerMode="dropdown">
+
+                    </Spinner>
+
+                </TableRow>
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/marginTop"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/sign"
+                android:textColor="@color/textcolor"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btest5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonClick"
+                android:text="Search" />
+
+        </LinearLayout>
+    </FrameLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

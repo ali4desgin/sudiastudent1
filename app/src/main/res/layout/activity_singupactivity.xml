@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singupactivity"
+    android:background="@drawable/resturant">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="RESTAURANTS"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/search"
+                android:hint="SEARCH"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:id="@+id/pic"
+                        android:src="@drawable/texas"/>
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="25dp"
+                        android:id="@+id/pic2"
+                        android:src="@drawable/zaatar" />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/pic3"
+                        android:src="@drawable/buffalo"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TableRow>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="11dp"
+                        android:text="Texas"
+                        android:textColor="@color/textcolor"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <Button
+                        android:id="@+id/zwz"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:onClick="onButtonClick"
+                        android:text="Zaatar w zeit"
+                        android:textColor="@color/textcolor" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="11dp"
+                        android:text="Buffalo"
+                        android:textColor="@color/textcolor"
+                        android:background="@color/colorPrimaryDark" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:id="@+id/pic4"
+                        android:src="@drawable/le"/>
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="25dp"
+                        android:id="@+id/pic5"
+                        android:src="@drawable/wiiing"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/pic6"
+                        android:src="@drawable/buuurger"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TableRow>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="11dp"
+                        android:text="le gourmet"
+                        android:textColor="@color/textcolor"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="11dp"
+                        android:text="Wing.stop"
+                        android:textColor="@color/textcolor"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="11dp"
+                        android:text="burger fuel"
+                        android:textColor="@color/textcolor"
+                        android:background="@color/colorPrimaryDark" />
+
+                </TableRow>
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
